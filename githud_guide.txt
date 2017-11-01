@@ -1,0 +1,13 @@
+first run
+1.echo "# meanstack-with-rest-API" >> README.md
+2.git init
+3. using git status to check status
+4. use git add . to add everything from inventory
+5. use git commit -m "anything here" to commit6
+6.git remote add origin https://github.com/VincentTran1994/meanstack-with-rest-API.git
+7.git remote set-url origin https://github.com/VincentTran1994/meanstack-with-rest-API.git
+8.git remote -v
+9.git remote add origin https://github.com/VincentTran1994/meanstack-with-rest-API.git
+checkout master (to check whether you are master or not)
+10.git push -u origin master 
+to push everythingto github
