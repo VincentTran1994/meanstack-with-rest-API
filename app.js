@@ -8,6 +8,8 @@ var path = require("path");
 var app = express();
 
 //connecting to mongodb
+//need to run the command below in comman line the mongod database by 
+//"C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe" --dbpath "c:\data"
 var database = mongoose.connect('mongodb://localhost:27017/contactlist', function(err){
     if(err){
         console.log(err);
@@ -16,6 +18,7 @@ var database = mongoose.connect('mongodb://localhost:27017/contactlist', functio
         console.log("The database is connected!!");
     }
 });
+
 
 //on connection
 mongoose.connection.on('connecte',()=>{
